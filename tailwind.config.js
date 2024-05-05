@@ -5,7 +5,14 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      margin: {
+        '120': '120px',
+      },
+      colors: {
+        'botao-preto': '#0D0F12'
+      }
+    },
   },
   plugins: [],
 }
